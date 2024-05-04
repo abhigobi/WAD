@@ -1,0 +1,14 @@
+FROM node:alpine
+  COPY ./ abhi
+  CMD node /abhi/index.js
+
+
+  =>docker images 
+  => docker build -t abhi .
+  =>docker images
+
+  =>docker pull open jdk
+  =>docker run --name JAVA -it d openjdk
+  =>docker ps
+  =>docker exec -it JAVA jshell
+  =>/exit
